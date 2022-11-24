@@ -24,11 +24,28 @@
     <div class="container-fluid">
       <div class="container my-3 d-flex justify-content-md-center">
         <div class="card p-3 border-0 background-offwhite" style="width: 800px">
-          <div class="d-flex justify-content-between align-items-center">
-            <h3>Notifications</h3>
-
-            <div class="text-capitalize">Mark all as read</div>
+          
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-secondary p-4">
+              <h3 class="text-white h3 grey-blue">Notification</h3>
+              <span class="text-light grey-blue">Mark all as Read</span>
+            </div>
           </div>
+          <nav class="navbar navbar-dark gery-blue-background">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent"
+                aria-controls="navbarToggleExternalContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
 
           <div
             class="d-flex gap-4 my-1 align-items-center grayish-blue pxy-2 rounded"
